@@ -25,6 +25,7 @@ function identityFour<Bootle>(val:Bootle):Bootle{
 
 function getSearchProduct<T>(products:T[]):T{
     return products[0] // return type value
+    // one of the value from the array
 }
 
 const getSearchMoreProduct=<T>(products:T[]):T=>{
