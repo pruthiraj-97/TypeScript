@@ -7,7 +7,7 @@ let isLoggedin: boolean=true
 // any variable type of data can be define
 let hero: string;
 
-function getValue(){
+function getValue():string{
     return "ts"
 }
 
