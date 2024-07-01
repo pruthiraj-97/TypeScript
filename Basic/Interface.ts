@@ -1,30 +1,23 @@
 // interface
-interface User{
+interface UserI{
     readonly DbId:string,
     email:string,
     userId:number,
-    readonly googleId?:string,
-    startTrail():string,
-    getCoupon(couponname:string):string
+    googleId?:string, // it is optional may not be present
 }
 
-interface User{
-    githubToken:string
-}
+// interface User{
+//     githubToken:string
+// }
 // inharitance in interface
-interface Admin extends User{
+
+interface AdminI extends UserI{
    role:"admin"|"ta"|"learner"
 }
-
-const rahul:User={
-    DbId:"dfuhreuifheruhf",
-    email:"rahul@gmail.com",
-    userId:45745,
-    githubToken:"dbnfjhfv",
-    startTrail:()=>{
-        return "trail start"
-    },
-    getCoupon:(couponname:'pruthi10')=>{
-      return couponname
-    },
+const rahul:AdminI={
+    DbId:"ugfuiewfh",
+    email:"dhgergj",
+    userId:10,
+    googleId:"dshuherg",
+    role:"admin"
 }

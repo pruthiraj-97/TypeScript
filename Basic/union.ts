@@ -1,19 +1,21 @@
 // union data type
-let score:number|string|boolean|object=33
-score="typescript"
-score=false
-score={}
+let scorei:number|string|boolean|object=33
+scorei="typescript"
+scorei=false
+scorei={}
 
 type Admin={
     name:string
     id:number
 }
+
 type User={
     username:string
     id:number
+
 }
 
-let hitesh:User|Admin={
+let hitesh:User={
    name:"pruthi",
    id:85
 }

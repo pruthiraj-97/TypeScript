@@ -6,16 +6,17 @@ users.push("rahul")
 const heroPower:Array<number>=[] // standard method
 heroPower.push(1)
 
-type User={
+type Useri={
     name:string,
     email:string,
     age:number
 }
 
-const allUser:Array<User>=[]
+const allUser:Array<Useri>=[]
 allUser.push({name:"pruhi",email:"pruthi",age:20})
 
-function array(values:Array<User>):void{
+function array(values:Array<Useri>):void
+{
    values.forEach((v)=>{
       console.log(v)
    })

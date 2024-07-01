@@ -1,5 +1,5 @@
 console.log("hello typescript")
-let user={
+let userV={
     name:"pruthi"
 }
 
